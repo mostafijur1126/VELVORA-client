@@ -16,7 +16,6 @@ import {
   FaCog,
   FaSignOutAlt,
 } from "react-icons/fa";
-import ThemeSwitch from "./ThemeSwitch";
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -137,7 +136,7 @@ const Navbar = () => {
             { name: "Nike", href: "/brands/nike" },
             { name: "Adidas", href: "/brands/adidas" },
             { name: "Zara", href: "/brands/zara" },
-            { name: "Levi's", href: "/brands/levis" },
+            { name: "H&M", href: "/brands/h&m" },
             { name: "Gucci", href: "/brands/gucci" },
             { name: "Puma", href: "/brands/puma" },
           ],
@@ -308,7 +307,7 @@ const Navbar = () => {
                 </span>
               </Link>
 
-              <ThemeSwitch />
+              {/* <ThemeSwitch /> */}
 
               {/* Profile dropdown */}
               <div

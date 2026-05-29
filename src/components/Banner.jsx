@@ -8,7 +8,7 @@ const Banner = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://i.ibb.co.com/YvmMHXv/freestocks-3-Q3ts-J01nc-unsplash.jpg"
+          src="/banner.jpg"
           alt="Luxury fashion hero"
           fill
           priority
