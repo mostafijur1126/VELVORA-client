@@ -4,7 +4,7 @@ import React from "react";
 const NikePage = async () => {
   const brand = "Zara";
   const res = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/all-products?brand=${brand}`,
+    `${process.env.NEXT_PUBLIC_API_URL}/brand?brand=${brand}`,
   );
   const products = await res.json();
   return (
